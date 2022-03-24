@@ -2,37 +2,10 @@
   "nodes": {
     "dnsprotocol": {
       "inputs": {
-        "dnsprotocol-main": "dnsprotocol-main",
         "flakeNimbleLib": [
           "flakeNimbleLib"
         ],
         "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1648110181,
-        "narHash": "sha256-OfA0VVGz1WnhoE37nXR/cKzmPVwFZ12IJkMAyQFQ/SQ=",
-        "owner": "nim-nix-pkgs",
-        "repo": "dnsprotocol",
-        "rev": "8b2c5c5bf89f12a5e9b48c2a23f60fb51abb7761",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "dnsprotocol",
-        "type": "github"
-      }
-    },
-    "dnsprotocol-main": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "dnsprotocol",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "dnsprotocol",
           "nixpkgs"
         ],
         "src-dnsprotocol-main": "src-dnsprotocol-main",
@@ -40,11 +13,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1648110181,
-        "narHash": "sha256-OfA0VVGz1WnhoE37nXR/cKzmPVwFZ12IJkMAyQFQ/SQ=",
+        "lastModified": 1648164289,
+        "narHash": "sha256-c0dbnms3vLDTeshB0JQRoYqkWwLss0Ppj81+ypxXWzI=",
         "owner": "nim-nix-pkgs",
         "repo": "dnsprotocol",
-        "rev": "8b2c5c5bf89f12a5e9b48c2a23f60fb51abb7761",
+        "rev": "99bd98858749831d765b4174f72d3d90659d291c",
         "type": "github"
       },
       "original": {
@@ -150,54 +123,21 @@
       "inputs": {
         "flakeNimbleLib": [
           "dnsprotocol",
-          "dnsprotocol-main",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
           "dnsprotocol",
-          "dnsprotocol-main",
-          "nixpkgs"
-        ],
-        "stew-master": "stew-master"
-      },
-      "locked": {
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
-        "owner": "nim-nix-pkgs",
-        "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nim-nix-pkgs",
-        "ref": "master",
-        "repo": "stew",
-        "type": "github"
-      }
-    },
-    "stew-master": {
-      "inputs": {
-        "flakeNimbleLib": [
-          "dnsprotocol",
-          "dnsprotocol-main",
-          "stew",
-          "flakeNimbleLib"
-        ],
-        "nixpkgs": [
-          "dnsprotocol",
-          "dnsprotocol-main",
-          "stew",
           "nixpkgs"
         ],
         "src-stew-master": "src-stew-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1648108133,
-        "narHash": "sha256-mT48CapDbojj/LsOxtK4S6s6RhmZEFW8wkoeYVFtQ6Y=",
+        "lastModified": 1648163641,
+        "narHash": "sha256-o1mp1U2lK44+JZDk4wYL0ntUijy1+3WGRrAHyr8j/GU=",
         "owner": "nim-nix-pkgs",
         "repo": "stew",
-        "rev": "fd51cd67444e92ddf7ad7867f44e03e4cc99eba5",
+        "rev": "2f74d82b8dbbd2144103f646070c06cdb1af35c6",
         "type": "github"
       },
       "original": {
